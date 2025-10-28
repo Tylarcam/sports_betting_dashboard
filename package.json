@@ -1,0 +1,11 @@
+{
+  "name": "sports-betting-dashboard",
+  "version": "1.0.0",
+  "description": "Sports Betting Policy Dashboard - Interactive visualization of US sports betting legalization",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
+

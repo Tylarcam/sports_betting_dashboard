@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Sports Betting Policy Dashboard | Nobrainerco 2025</title>
+    <meta name="description" content="Learn about our methodology, data sources, and the team behind the comprehensive sports betting policy analysis.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#1a2332',
+                        'copper': '#c17a5b',
+                        'sage': '#8fa68e',
+                        'charcoal': '#2d3748'
+                    },
+                    fontFamily: {
+                        'display': ['Inter', 'system-ui', 'sans-serif'],
+                        'body': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e2e8f0 100%);
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #c17a5b;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #c17a5b;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-navy">PolicyDashboard</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="nav-link text-charcoal hover:text-copper px-3 py-2 text-sm font-medium">Dashboard</a>
+                        <a href="about.html" class="nav-link text-copper px-3 py-2 text-sm font-medium border-b-2 border-copper">About</a>
+                        <a href="resources.html" class="nav-link text-charcoal hover:text-copper px-3 py-2 text-sm font-medium">Resources</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-navy text-white pt-24 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">About Our Analysis</h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
+                Comprehensive methodology, transparent data sources, and expert analysis driving informed policy decisions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-bold text-navy mb-4">Our Methodology</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Rigorous data collection and analysis framework ensuring accuracy and reliability in policy insights.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="animate-on-scroll">
+                    <h3 class="text-2xl font-semibold text-navy mb-6">Data Collection Process</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-sage rounded-full flex items-center justify-center text-white font-bold">1</div>
+                            <div>
+                                <h4 class="font-semibold text-navy mb-2">Legislative Tracking</h4>
+                                <p class="text-gray-600">Systematic monitoring of state legislation, ballot initiatives, and regulatory changes across all 50 states since 2018.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-sage rounded-full flex items-center justify-center text-white font-bold">2</div>
+                            <div>
+                                <h4 class="font-semibold text-navy mb-2">Implementation Monitoring</h4>
+                                <p class="text-gray-600">Tracking launch dates, regulatory milestones, and operational status for each legalized jurisdiction.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-sage rounded-full flex items-center justify-center text-white font-bold">3</div>
+                            <div>
+                                <h4 class="font-semibold text-navy mb-2">Economic Data Integration</h4>
+                                <p class="text-gray-600">Incorporating tax rates, revenue data, and economic indicators from official state sources and regulatory bodies.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-sage rounded-full flex items-center justify-center text-white font-bold">4</div>
+                            <div>
+                                <h4 class="font-semibold text-navy mb-2">Cross-Validation</h4>
+                                <p class="text-gray-600">Multiple source verification and quality assurance processes to ensure data accuracy and consistency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="animate-on-scroll">
+                    <h3 class="text-2xl font-semibold text-navy mb-6">Scoring Framework</h3>
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-sage pl-4">
+                                <h4 class="font-semibold text-navy">Score 2: Full Adoption</h4>
+                                <p class="text-sm text-gray-600">Both online/mobile and retail sports betting legally operational</p>
+                            </div>
+                            <div class="border-l-4 border-copper pl-4">
+                                <h4 class="font-semibold text-navy">Score 1: Partial Adoption</h4>
+                                <p class="text-sm text-gray-600">Only one channel (online/mobile OR retail) legally operational</p>
+                            </div>
+                            <div class="border-l-4 border-gray-300 pl-4">
+                                <h4 class="font-semibold text-navy">Score 0: No Adoption</h4>
+                                <p class="text-sm text-gray-600">No legal sports betting or pending implementation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 pt-6 border-t border-gray-200">
+                            <h4 class="font-semibold text-navy mb-3">Additional Metrics</h4>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>• Implementation speed (days from legalization to launch)</li>
+                                <li>• Legalization method (legislation, referendum, tribal compact)</li>
+                                <li>• Tax rate structure and revenue sharing models</li>
+                                <li>• Market maturity and competitive landscape</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Sources Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-bold text-navy mb-4">Data Sources & Transparency</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our analysis draws from authoritative sources to ensure accuracy and reliability in policy insights.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-sage rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">Legislative Records</h3>
+                    <p class="text-gray-600 text-sm">Official state legislative databases, bill tracking systems, and regulatory filings from all 50 states.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-copper rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">Regulatory Agencies</h3>
+                    <p class="text-gray-600 text-sm">State gaming commissions, lottery corporations, and regulatory bodies providing official implementation data.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-navy rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">Economic Data</h3>
+                    <p class="text-gray-600 text-sm">Tax revenue reports, economic impact studies, and industry analysis from government and private sources.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-sage rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">Industry Reports</h3>
+                    <p class="text-gray-600 text-sm">Market research, operator data, and industry analysis from established gaming and sports betting research firms.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-copper rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">News & Media</h3>
+                    <p class="text-gray-600 text-sm">Verified reporting from reputable news organizations covering sports betting policy and implementation.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-6 shadow-sm animate-on-scroll">
+                    <div class="w-12 h-12 bg-navy rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-3">Expert Analysis</h3>
+                    <p class="text-gray-600 text-sm">Insights from policy experts, legal scholars, and industry professionals specializing in gaming regulation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-bold text-navy mb-4">Our Team</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Experienced data scientists, policy analysts, and researchers dedicated to evidence-based policy insights.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg p-6 text-center animate-on-scroll">
+                    <div class="w-24 h-24 bg-sage rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+                        DR
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-2">Data Research Team</h3>
+                    <p class="text-gray-600 text-sm mb-4">PhD-level researchers specializing in public policy analysis, statistical modeling, and data visualization.</p>
+                    <div class="text-xs text-gray-500">
+                        Quantitative Analysis • Statistical Modeling • Data Visualization
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 text-center animate-on-scroll">
+                    <div class="w-24 h-24 bg-copper rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+                        PA
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-2">Policy Analysts</h3>
+                    <p class="text-gray-600 text-sm mb-4">Experts in gaming regulation, legislative processes, and comparative policy analysis across jurisdictions.</p>
+                    <div class="text-xs text-gray-500">
+                        Gaming Regulation • Legislative Analysis • Comparative Policy
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6 text-center animate-on-scroll">
+                    <div class="w-24 h-24 bg-navy rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+                        ET
+                    </div>
+                    <h3 class="text-lg font-semibold text-navy mb-2">Engineering Team</h3>
+                    <p class="text-gray-600 text-sm mb-4">Software engineers and data scientists building interactive tools and maintaining data infrastructure.</p>
+                    <div class="text-xs text-gray-500">
+                        Software Engineering • Data Infrastructure • Interactive Tools
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limitations Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-bold text-navy mb-4">Limitations & Next Steps</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Transparent acknowledgment of analytical constraints and future research directions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="animate-on-scroll">
+                    <h3 class="text-2xl font-semibold text-navy mb-6">Current Limitations</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-copper">
+                            <h4 class="font-semibold text-navy mb-2">Data Availability</h4>
+                            <p class="text-gray-600 text-sm">Some states provide limited public data on implementation timelines and economic impacts.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-copper">
+                            <h4 class="font-semibold text-navy mb-2">Market Maturity</h4>
+                            <p class="text-gray-600 text-sm">Early-stage markets may not reflect long-term adoption patterns and economic performance.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-copper">
+                            <h4 class="font-semibold text-navy mb-2">Regulatory Complexity</h4>
+                            <p class="text-gray-600 text-sm">Tribal gaming compacts and unique regulatory frameworks may not be fully captured in standardized metrics.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="animate-on-scroll">
+                    <h3 class="text-2xl font-semibold text-navy mb-6">Future Enhancements</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-sage">
+                            <h4 class="font-semibold text-navy mb-2">Real-time Updates</h4>
+                            <p class="text-gray-600 text-sm">Automated data feeds and real-time policy tracking across all jurisdictions.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-sage">
+                            <h4 class="font-semibold text-navy mb-2">Economic Modeling</h4>
+                            <p class="text-gray-600 text-sm">Enhanced predictive models incorporating demographic and economic variables.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border-l-4 border-sage">
+                            <h4 class="font-semibold text-navy mb-2">Stakeholder Feedback</h4>
+                            <p class="text-gray-600 text-sm">Integration of industry stakeholder perspectives and user-generated insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-navy text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Explore the Data</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                Dive into interactive analysis tools and comprehensive policy insights.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="index.html" class="bg-white text-navy px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
+                    View Dashboard
+                </a>
+                <a href="resources.html" class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-navy transition-colors">
+                    Data Sources
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">PolicyDashboard</div>
+                <p class="text-gray-400 mb-6">
+                    Comprehensive sports betting policy analysis and insights
+                </p>
+                <div class="border-t border-gray-600 pt-6">
+                    <p class="text-sm text-gray-400">
+                        Created by <strong>Nobrainerco</strong> Data Team © 2025 | 
+                        Data-driven policy analysis for informed decision making
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
