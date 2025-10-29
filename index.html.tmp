@@ -1170,7 +1170,7 @@
     <!-- Update Revenue Stats with CSV Data -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // CSV fetch removed - using hardcoded data instead
+            // CSV fetch removed - using hardcoded data
                 .then(r => r.text())
                 .then(text => {
                     const lines = text.trim().split(/\r?\n/);

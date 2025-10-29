@@ -1170,7 +1170,7 @@
     <!-- Update Revenue Stats with CSV Data -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // CSV fetch removed - using hardcoded data instead
+            fetch('../Sports_Betting_Policy_Dashboard/data/processed/AI_assisted_data_gathering_perplexity/sports_betting_national_annual_data.csv')
                 .then(r => r.text())
                 .then(text => {
                     const lines = text.trim().split(/\r?\n/);
