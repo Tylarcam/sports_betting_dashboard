@@ -1,9 +1,21 @@
+# Ignore these directories
+Sports_Betting_Policy_Dashboard/
+notes/
+*Analysis_Final_Report*.pdf
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
 env/
 venv/
 ENV/
@@ -23,3 +35,15 @@ Thumbs.db
 # Railway
 .railway/
 
+# Cache
+*.cache
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Logs
+*.log

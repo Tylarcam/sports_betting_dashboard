@@ -1,35 +1,73 @@
-# Sports Betting Policy Dashboard - Deployment Package
+# Sports Betting Policy Dashboard
 
-This folder contains all the necessary files to deploy the Sports Betting Policy Dashboard to Railway.
+**Interactive HTML dashboard for visualizing sports betting legislation adoption across US states.**
 
-## 📁 Contents
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
+---
+
+## 📊 Overview
+
+This repository contains an interactive web dashboard for exploring US sports betting policy adoption, featuring:
+
+- 🗺️ **Interactive Maps**: Geographic visualization of adoption status across all US states
+- 📈 **Timeline Charts**: Visualizing adoption waves from 2018 to present  
+- 📊 **Scorecard Displays**: State-level rankings and metrics
+- 🎯 **Policy Insights**: Methodology, data sources, and analytical framework
+- 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+
+---
+
+## 📁 Repository Structure
+
+### Root Directory
 - `index.html` - Main dashboard page
 - `about.html` - About page
 - `resources.html` - Resources page
 - `main.js` - JavaScript functionality
 - `resources/` - Images and assets
-- `railpack.json` - Railway Railpack configuration
 - `package.json` - Node.js dependencies
-- `.gitignore` - Git ignore rules
+- `nixpacks.toml` - Deployment configuration
 
-## 🚀 Deployment to Railway
+### Archive
+- `archive/leaflet-version/` - Archived Leaflet map implementation
 
-### Prerequisites
+### Current Interactive Policy Report
+- `Current_Interactive Policy Report/` - Interactive HTML dashboard and related assets
+
+---
+
+## 🚀 Quick Start
+
+### View Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Tylarcam/sports_betting_dashboard.git
+   cd sports_betting_dashboard
+   ```
+
+2. Open in browser:
+   - Option 1: Open `index.html` directly in your browser
+   - Option 2: Use a local server:
+     ```bash
+     npx serve -s .
+     ```
+
+### Deployment to Railway
+
+#### Prerequisites
 - GitHub account
 - Railway account (free at railway.app)
 
-### Option 1: Deploy via Railway Dashboard (Recommended)
+#### Option 1: Deploy via Railway Dashboard (Recommended)
 
-1. Push this folder to GitHub:
+1. Push to GitHub (if not already done):
    ```bash
-   cd C:\Users\tylar\code\sports-betting-dashboard
-   git init
    git add .
-   git commit -m "Initial deployment"
-   git branch -M main
-   git remote add origin <your-github-repo-url>
-   git push -u origin main
+   git commit -m "Ready for deployment"
+   git push origin master
    ```
 
 2. Go to [railway.app](https://railway.app)
@@ -37,14 +75,14 @@ This folder contains all the necessary files to deploy the Sports Betting Policy
 4. Select your repository
 5. Railway will automatically deploy your site!
 
-### Option 2: Deploy via Railway CLI
+#### Option 2: Deploy via Railway CLI
 
 ```bash
 # Install Railway CLI
 npm i -g @railway/cli
 
 # Navigate to project
-cd C:\Users\tylar\code\sports-betting-dashboard
+cd sports_betting_dashboard
 
 # Login to Railway
 railway login
@@ -54,23 +92,15 @@ railway init
 railway up
 ```
 
+---
+
 ## 🌐 How It Works
 
-- Railway uses the `railpack.json` configuration to set up a Node.js Alpine container
+- Railway/Nixpacks uses the configuration to set up a Node.js Alpine container
 - The `npx serve -s . -l $PORT` command serves your static files
-- Your dashboard will be available at `https://your-project-name.up.railway.app`
+- Your dashboard will be available at your deployment URL
 
-## 📝 Configuration Details
-
-### railpack.json
-Configures Railway to:
-- Use Node.js 18 Alpine Linux base image
-- Run `npx serve` to serve static files
-- Listen on the PORT environment variable
-- Include all files in the deployment
-
-### package.json
-Provides the `start` script for Railway to execute.
+---
 
 ## ✨ Features
 
@@ -80,12 +110,22 @@ Provides the `start` script for Railway to execute.
 - Timeline visualization
 - Responsive design
 - Modern UI with Tailwind CSS
-
-## 📧 Support
-
-For questions or issues, contact: research@nobrainerco.com
+- Comprehensive data visualization with ECharts
 
 ---
 
-Created by Nobrainerco © 2025
+## 📧 Contact
 
+For questions or issues:
+- Email: tylar@nobrainer.co
+- Research inquiries: research@nobrainerco.com
+
+---
+
+## 📝 License
+
+MIT License - See LICENSE file for details
+
+---
+
+**Created by Nobrainerco © 2025**
