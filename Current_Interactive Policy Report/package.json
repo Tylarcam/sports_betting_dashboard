@@ -4,7 +4,7 @@
   "description": "Sports Betting Policy Dashboard - Interactive analysis of U.S. sports betting legalization",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l ${PORT:-3000}"
+    "start": "npx serve -s . -l $PORT"
   },
   "keywords": [
     "sports-betting",
