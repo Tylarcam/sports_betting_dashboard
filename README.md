@@ -7,6 +7,14 @@
 
 ---
 
+## 🔗 Live Dashboard
+
+**[View Live Dashboard →](https://sportsbettingdashboard-production.up.railway.app/)**
+
+Explore the interactive dashboard deployed on Railway.
+
+---
+
 ## 📊 Overview
 
 This repository contains an interactive web dashboard for exploring US sports betting policy adoption, featuring:
