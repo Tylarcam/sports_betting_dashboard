@@ -215,3 +215,31 @@ It renders both charts into the containers defined above.
     </div>
   </div>
 </section>
+
+---
+
+## 📦 ARCHIVED: Leaflet Interactive Map (November 9, 2025)
+
+**Status:** Removed and archived
+
+**Reason:** The leaflet map lacked the depth and detail needed for the policy dashboard. The map has been replaced by the more robust ECharts choropleth visualization in the Analysis section.
+
+**Archive Location:** `ARCHIVED_leaflet_map.md`
+
+**What was removed:**
+- Leaflet.js library references (CDN links)
+- Leaflet CSS styles
+- Interactive map section with circle markers
+- `initMap()` function and initialization code
+- Navigation link to map section
+
+**Current Solution:** 
+The dashboard now uses a single, more powerful ECharts-based choropleth map in the State-by-State Analysis section that provides:
+- Better visual representation of state boundaries
+- Interactive filtering by status and region
+- Click-to-view detailed state information
+- Integration with comprehensive state data
+- Consistent styling with other dashboard visualizations
+
+**Future Considerations:**
+If additional data becomes available (detailed state boundaries, revenue overlays, timeline animations), the archived leaflet code can be enhanced and reintegrated. See `ARCHIVED_leaflet_map.md` for detailed notes on potential improvements.
